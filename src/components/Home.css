@@ -1,0 +1,26 @@
+.form{
+      background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin: 100px;
+}
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+}
+body{
+    background-color: burlywood;
+}
+.sb{
+    margin-left: 50px;
+}

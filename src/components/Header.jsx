@@ -11,8 +11,13 @@ function Header(){
                <NavLink to="/"  className="link"> home</NavLink>
                <NavLink to="/about"  className="link" >About</NavLink>
                <NavLink to="/contact"  className="link" > contact us</NavLink>
+               <NavLink to="/setting"  className="link" > setting</NavLink>
              </div>
              <img src={Avatar} alt="" />
+              <div className="buttonCont">
+                 <button>sign in</button>
+                 <button>log out</button>
+              </div>
          </div>
      )
 }export default Header

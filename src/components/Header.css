@@ -4,7 +4,7 @@
 }
 .headerContainer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: bisque;
     color: royalblue;
     padding: 20px;
@@ -29,4 +29,13 @@ img{
     height: 50px;
     width: 50px;
     border-radius: 50%;
+}
+button{
+    margin: 10px;
+    width: 120px;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
 }
