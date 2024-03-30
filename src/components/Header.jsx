@@ -15,7 +15,8 @@ function Header(){
              </div>
              <img src={Avatar} alt="" />
               <div className="buttonCont">
-                 <button>sign in</button>
+              <NavLink to="/Login"  className="link"><button>sign in</button></NavLink>
+
                  <button>log out</button>
               </div>
          </div>

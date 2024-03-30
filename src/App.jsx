@@ -5,7 +5,7 @@ import Home from "../src/pages/Home"
 import About from "../src/pages/Abouts"
 import Contact from "../src/pages/Contact"
 import Setting from "../src/pages/Setting"
-
+import Login from "../src/pages/Login"
 
 function App() {
     return(
@@ -16,6 +16,7 @@ function App() {
          <Route path="/about" element={ <About/>}/>
          <Route path="/contact" element={ <Contact/>}/>
          <Route path="/setting" element={ <Setting />} />
+         <Route path="/login" element={ <Login />} />
       </Routes>
       </BrowserRouter>
       </>
